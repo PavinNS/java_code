@@ -1,0 +1,15 @@
+class b{
+    public static void main (String args[]){
+        String abc="swetha",org=abc,rev=" ";
+        for(int i=abc.length()-1;i>=0;i--){
+            rev=rev+abc.charAt(i);
+        }
+        System.out.println("reverse String:"+rev);
+        if(org.equals(abc)){
+             System.out.println("palindrome:"+rev);
+        }else
+            {
+             System.out.println("not palindrome:"+rev);
+        }
+    }
+}
