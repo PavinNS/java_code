@@ -9,7 +9,7 @@ class b{
              System.out.println("palindrome:"+rev);
         }else
             {
-             System.out.println("not palindrome:"+rev);
+             System.out.println("not palindrome :"+rev);
         }
     }
 }
