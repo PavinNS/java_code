@@ -5,6 +5,6 @@ int a=90,b=78;
 a=a+b;
 b=a-b;
 a=a-b;
-System.out.println(a+" "+b);
+System.out.println(a+"  "+b);
 }
 }
